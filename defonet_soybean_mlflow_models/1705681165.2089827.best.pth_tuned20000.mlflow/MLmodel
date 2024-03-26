@@ -1,0 +1,17 @@
+flavors:
+  python_function:
+    artifacts:
+      tvm_executable:
+        path: artifacts/1705681165.2089827.best.pth_tuned20000.so
+        uri: defonet_soybean_tvm_models/1705681165.2089827.best.pth_tuned20000.so
+    cloudpickle_version: 3.0.0
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.pyfunc.model
+    python_model: python_model.pkl
+    python_version: 3.8.18
+mlflow_version: 2.11.3
+model_size_bytes: 199204
+model_uuid: ea31ebd4707d42599dd74d0569849ef1
+utc_time_created: '2024-03-26 02:46:37.633783'
